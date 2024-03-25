@@ -1,4 +1,4 @@
-#useReducer
+# useReducer
 
 - 컴포넌트 내부에 새로운 State를 생성하는 React Hook
 - 모든 useState는 useReducer로 대체 가능
