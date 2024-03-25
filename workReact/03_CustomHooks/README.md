@@ -1,3 +1,21 @@
+# React Hooks
+
+클래스 컴포넌트의 기능을 함수 컴포넌트에서도 이용할 수 있도록 도와주는 메서드
+
+useState - State 기능을 낚아 채오는 Hook
+
+useRef - Reference 기능을 낚아 채오는 Hook
+
+customHook - 나만의 Hook도 제작 가능(Custom Hook)
+
+## 리액트 훅의 특징
+
+1. 함수 컴포넌트 내부에서만 호출 가능
+2. 조건문, 반복문 내부에서는 호출 불가
+3. 나만의 customHook도 제작 가능
+   → 컴포넌트별로 반복되는 로직이 있을 때 사용
+   → 단, 새로 만든 customHook 앞에 ‘use’를 접두사로 붙여야 한다. ex) useInput, useChange
+
 # Custom Hooks
 
 ## Custom Hooks이란?
